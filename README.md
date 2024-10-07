@@ -1,6 +1,10 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React basic Layout
+
+###Download from the code option!
+
+Run the command in your vs code terminal as : npm run dev
 
 Currently, two official plugins are available:
 
