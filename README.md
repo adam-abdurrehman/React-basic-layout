@@ -4,7 +4,7 @@
 
 ### Download from the code option!
 
-Run the command in your vs code terminal as : npm run dev
+Run the command in your vs code terminal as : `npm run dev`
 
 Currently, two official plugins are available:
 
