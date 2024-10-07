@@ -4,6 +4,10 @@
 
 ### Download from the code option!
 
+In my React Basic Layout Repo, you'll not find the node module folder!
+
+But you can add this by running this command `npm i` before the next command, it will automatically install node module folder
+
 Run the command in your vs code terminal as : `npm run dev`
 
 Currently, two official plugins are available:
