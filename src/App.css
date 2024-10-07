@@ -1,0 +1,89 @@
+:root{
+  --bgc1: #1e1e1e;
+  --bgc2: #0F0F0F;
+  --br: 15px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.hero, .navbar, .logo, .navbar ul, .sign-in, .main, .left, .middle, .right, .fotter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar, .logo, .navbar ul, ul li, .sign-in, .main, .left, .middle, .right, .fotter{
+  border-radius: var(--br);
+}
+
+.navbar, .left, .middle, .right, .fotter{
+  background-color: var(--bgc1);
+  cursor: pointer;
+}
+
+.logo, .navbar ul,.sign-in{
+  background-color: var(--bgc2);
+  padding: 10px 20px;
+}
+
+.navbar, .main, .fotter{
+  min-width: 98%;
+}
+
+.left, .middle, .right{
+  height: 100%;
+}
+
+.hero, .main{
+  gap: 5px;
+}
+
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+/*border: 1px solid white;*/
+
+.navbar{
+  height: 60px;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.navbar ul{
+  gap: 10px;
+}
+
+ul li{
+  list-style: none;
+  padding: 5px;
+}
+
+.main{
+  height: 74%;
+}
+
+.left{
+  width: 25%;
+}
+
+.middle{
+  width: 55%;
+}
+
+.right{
+  width: 20%;
+}
+
+.fotter{
+  height: max-content;
+  padding: 25px 10px;
+
+}
+
+
