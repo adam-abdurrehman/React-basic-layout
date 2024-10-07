@@ -2,7 +2,7 @@
 
 ## React basic Layout
 
-###Download from the code option!
+### Download from the code option!
 
 Run the command in your vs code terminal as : npm run dev
 
